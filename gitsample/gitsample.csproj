@@ -4,7 +4,9 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{44F5F1EC-D8F5-480B-8CDC-C21FA280EC06}</ProjectGuid>
+
+    <ProjectGuid>{D53D18E1-217E-41C1-A49C-F9FBA2A5EF3B}</ProjectGuid>
+
     <OutputType>WinExe</OutputType>
     <RootNamespace>gitsample</RootNamespace>
     <AssemblyName>gitsample</AssemblyName>
@@ -57,6 +59,7 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
