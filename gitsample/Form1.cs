@@ -24,7 +24,7 @@ namespace gitsample
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("hi welcome to git");
+            MessageBox.Show("hi welcome to git repo");
         }
     }
 }
